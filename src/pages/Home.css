@@ -1,0 +1,12 @@
+.dark .homeBackground {
+  background-image: url(../assets/sebastian-svenson-d2w-_1LJioQ-unsplash.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.homeBackground {
+    background-image: url(../assets/sebastian-svenson-LpbyDENbQQg-unsplash.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }

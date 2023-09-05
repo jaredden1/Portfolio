@@ -1,0 +1,10 @@
+body {
+  background-color: rgb(186 185 189);
+  color: #333333;
+}
+
+body.dark {
+  background-color: rgb(23 31 40);
+  color: #f2f2f2;
+}
+
