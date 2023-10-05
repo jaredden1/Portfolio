@@ -1,6 +1,7 @@
 body {
   background-color: rgb(186 185 189);
   color: #333333;
+  overflow-x: hidden; /* To avoid horizontal scrolling */
 }
 
 body.dark {
