@@ -23,6 +23,11 @@
   box-shadow: 0px 9px 9px rgba(0, 0, 0, 0.5);
 }
 
+.project-container img:hover {
+  filter: brightness(1.2);
+  transform: scale(1.1);
+}
+
 .title {
   font-size: 18px;
   font-weight: bold;
@@ -43,7 +48,8 @@ button {
 
 button:hover {
   background-color: #0d93ec;
-  transform: scale(0.95);
+  filter: brightness(1.2);
+  transform: scale(1.1);
 }
 
 /* Mobile styles */
