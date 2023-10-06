@@ -1,24 +1,25 @@
 .projects-wrapper {
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-around;
+  justify-content: space-evenly;
 }
 
 .project-container {
-  padding-top: 10%;
+  padding-top: 13%;
   font-size: 2rem;
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin: 5px;
-  max-width: 21%;
+  max-width: 23%;
 }
 
 .project-container img {
   width: 100%;
   margin: 1rem 0;
+  padding: 10px;
   border: 1px solid #e0e0e0;
   border-radius: 10px;
+  background-color: #f8f6f6;
   box-shadow: 0px 9px 9px rgba(0, 0, 0, 0.5);
 }
 
@@ -36,12 +37,35 @@ button {
   background-color: #6aa8d0;
   color: white;
   cursor: pointer;
-  transition: background-color 0.3s ease;
+  transition: background-color 0.3s ease, transform 0.3s ease;
   box-shadow: 0 7px 9px rgba(0, 0, 0, 0.5);
 }
 
 button:hover {
   background-color: #0d93ec;
   transform: scale(0.95);
+}
 
+/* Mobile styles */
+@media (max-width: 768px) {
+  .projects-wrapper {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .project-container {
+    max-width: 80%;
+    font-size: 1.5rem;
+    padding-top: 10%;
+  }
+
+  .title {
+    font-size: 16px;
+  }
+
+  button {
+    padding: 5px 20px;
+    margin: 5px;
+    font-size: medium;
+  }
 }
