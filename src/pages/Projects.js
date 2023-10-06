@@ -1,7 +1,7 @@
+import React, { useEffect, useState } from "react";
 import "./Projects.css";
-import { useEffect, useState } from "react";
 
-const Projects = (props) => {
+const Projects = () => {
   const [projects, setProjects] = useState(null);
 
   const getProjectsData = async () => {
@@ -15,20 +15,24 @@ const Projects = (props) => {
   }, []);
 
   const loaded = () => {
-    return projects.map((project) => (
-      <div className="project-container">
-        <h1>{project.name}</h1>
-        <img src={project.image} alt={project.name} />
-        <div className="button-container">
-          <a href={project.git}>
-            <button>Github</button>
-          </a>
-          <a href={project.live}>
-            <button>live site</button>
-          </a>
-        </div>
+    return (
+      <div className="projects-wrapper">
+        {projects.map((project) => (
+          <div className="project-container" key={project.id}>
+            <h1 className="title">{project.name}</h1>
+            <img src={project.image} alt={project.name} />
+            <div className="button-container">
+              <a href={project.git}>
+                <button>Github</button>
+              </a>
+              <a href={project.live}>
+                <button>live site</button>
+              </a>
+            </div>
+          </div>
+        ))}
       </div>
-    ));
+    );
   };
 
   return projects ? loaded() : <h1>Loading...</h1>;
