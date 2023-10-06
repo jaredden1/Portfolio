@@ -30,6 +30,8 @@
   box-shadow: 5px 5px 15px rgba(5, 153, 245, 0.7),
     -7px -7px 10px rgba(246, 41, 41, 0.3);
   transform: scale(1.05) rotateX(5deg) rotateY(-5deg);
+  filter: brightness(1.2);
+  transform: scale(1.1);
 }
 
 .grid-text {

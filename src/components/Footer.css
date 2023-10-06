@@ -16,5 +16,6 @@
 .footer a:hover svg {
   transition: box-shadow 0.3s ease, transform 0.3s ease;
   box-shadow: 0 0 10px 2px rgba(5, 153, 245, 0.7);
-  transform: scale(1.05);  /* This will zoom in the SVG by 5% when hovered */
+  filter: brightness(1.3);
+  transform: scale(1.1); 
 }
