@@ -5,12 +5,13 @@
 }
 
 .project-container {
+  padding-top: 10%;
   font-size: 2rem;
   display: flex;
   flex-direction: column;
   align-items: center;
   margin: 5px;
-  max-width: 25%;
+  max-width: 21%;
 }
 
 .project-container img {
