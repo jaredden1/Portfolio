@@ -19,6 +19,9 @@ const Header = (props) => {
           <Link to="/PROJECTS" className="hover:text-blue-500">
             Projects
           </Link>
+          <Link to="/CONTACT" className="hover:text-blue-500">
+            Contact
+          </Link>
         </div>
         <DarkMode />
       </nav>
