@@ -6,7 +6,7 @@ import react from "../assets/react.png";
 import node from "../assets/nodejs.png";
 import express from "../assets/express.png";
 import mongo from "../assets/mongo.png";
-import python from "../assets//python.png";
+import python from "../assets/python.png";
 import django from "../assets/django.png";
 
 export default function Skills() {
