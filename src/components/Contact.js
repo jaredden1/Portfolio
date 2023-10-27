@@ -19,8 +19,9 @@ const Contact = () => {
 
   return (
     <>
-      <h2 className="about-subheader">Contact</h2>
-      <form ref={form} onSubmit={sendEmail} className="about-contact-form">
+      <h2 className="contact-header">CONTACT ME</h2>
+      <h4 className="contact-subheader">Get in touch with me with any question or inquiries</h4>
+      <form ref={form} onSubmit={sendEmail} className="contact-form">
         <br />
         <input 
         type="text" 
@@ -50,7 +51,7 @@ const Contact = () => {
           required
           placeholder="Message:"
         ></textarea>
-        <button type="submit">Send Message</button>
+        <button className="contact-button" type="submit">Send Message</button>
       </form>
     </>
   );
