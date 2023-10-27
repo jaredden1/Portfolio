@@ -27,8 +27,8 @@ class Footer extends Component {
             >
               <svg
                 xmlns="http://www.w3.org/2000/svg"
-                width="50"
-                height="50"
+                width="40"
+                height="40"
                 viewBox="0 0 64 64"
               >
                 <path
@@ -46,8 +46,8 @@ class Footer extends Component {
             >
               <svg
                 xmlns="http://www.w3.org/2000/svg"
-                width="50"
-                height="50"
+                width="45"
+                height="45"
                 viewBox="0 0 48 48"
               >
                 <path
@@ -73,8 +73,8 @@ class Footer extends Component {
             <a href="/contact" className="email">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
-                width="50"
-                height="50"
+                width="45"
+                height="45"
                 viewBox="0 0 48 48"
               >
                 <path
