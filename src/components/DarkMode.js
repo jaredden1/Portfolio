@@ -12,7 +12,7 @@ export const DarkMode = () => {
   return (
     <div>
       <button
-        className="bg-sky-200 hover:bg-sky-50 dark:bg-gray-600 dark:text-gray-500  dark:hover:bg-gray-700 rounded-lg text-sm p-2 m-2"
+        className="hover:bg-sky-50 dark:bg-gray-600 dark:hover:bg-gray-400 rounded-lg text-sm p-2 m-2"
         onClick={handleDarkMode}
       >
         {darkMode ? (

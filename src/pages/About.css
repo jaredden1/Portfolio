@@ -10,9 +10,9 @@
   flex-direction: column;
   align-items: center;
   width: 80px;
-  background-color: rgb(138, 167, 195);
+  background-color: #6aa8d0;
   padding: 17px;
-  border: 1px rgb(207, 207, 207) solid;
+  border: 3px rgb(207, 207, 207) solid;
   border-radius: 5px;
   box-shadow: 4px 4px 9px rgba(246, 41, 41, 0.6),
     -3px -3px 5px rgba(5, 153, 245, 0.7);
@@ -55,15 +55,17 @@
   align-items: center;
 }
 
-.name {
-  font-size: 2.5rem;
-  color: #f9f6f6;
-  margin-bottom: 2rem;
-  padding: 25px;
+.header {
+  margin-top: 3rem;
+}
+
+.about {
+  font-size: 2rem;
 }
 
 .bio-container {
-  background-color: rgb(138, 167, 195);
+  background-color: #6aa8d0;
+  border: 3px rgb(207, 207, 207) solid;
   padding: 20px;
   border-radius: 10px;
   max-width: 75%;
@@ -73,7 +75,6 @@
 .bio {
   font-size: 1.2rem;
   text-align: center;
-  color: #faf9f9;
   max-width: 80%;
   margin: 0 auto;
 }

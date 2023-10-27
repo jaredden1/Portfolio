@@ -17,13 +17,13 @@ const About = (props) => {
   const loaded = () => (
     <div className="about-container">
       <div className="info">
-        <h2 className="name">{about.name}</h2>
-        <h3>{about.email}</h3>
+        <h2 className="header">{about.header}</h2>
+        <h2 className="about">{about.about}</h2>
         <div className="bio-container">
           <p className="bio">{about.bio}</p>
         </div>
       </div>
-      <div className="text-center">
+      <div className="skills-center">
         <Skills />
       </div>
     </div>
