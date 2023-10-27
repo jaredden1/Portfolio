@@ -13,11 +13,14 @@ const Header = (props) => {
           <Link to="/" className="hover:text-blue-500">
             Home
           </Link>
-          <Link to="/ABOUT" className="hover:text-blue-500">
+          <Link to="/about" className="hover:text-blue-500">
             About
           </Link>
-          <Link to="/PROJECTS" className="hover:text-blue-500">
+          <Link to="/projects" className="hover:text-blue-500">
             Projects
+          </Link>
+          <Link to="/contact" className="hover:text-blue-500">
+            Contact
           </Link>
         </div>
         <DarkMode />

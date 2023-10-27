@@ -67,7 +67,7 @@ class Footer extends Component {
             </a>
           </div>
           <div>
-            <a href="mailto:james.ifit@gmail.com" className="email">
+            <a href="/contact" className="email">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 width="50"
