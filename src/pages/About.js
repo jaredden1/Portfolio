@@ -1,6 +1,8 @@
 import { useEffect, useState } from "react";
 import Skills from "./Skills";
 
+const headshot = "https://i.imgur.com/s9aqFid.png";
+
 const About = (props) => {
   const [about, setAbout] = useState(null);
 
@@ -16,6 +18,7 @@ const About = (props) => {
 
   const loaded = () => (
     <div className="about-container">
+      <img src={headshot} className="headshot" />
       <div className="info">
         <h2 className="header">{about.header}</h2>
         <h2 className="about">{about.about}</h2>
