@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from "react";
+import Footer from "../components/Footer";
 import "./Projects.css";
 
 const Projects = () => {
@@ -31,6 +32,9 @@ const Projects = () => {
             </div>
           </div>
         ))}
+        <div className="project-footer">
+          <Footer />
+        </div>
       </div>
     );
   };

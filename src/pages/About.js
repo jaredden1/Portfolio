@@ -1,5 +1,6 @@
 import { useEffect, useState } from "react";
 import Skills from "./Skills";
+import Footer from "../components/Footer";
 
 const headshot = "https://i.imgur.com/s9aqFid.png";
 
@@ -28,6 +29,9 @@ const About = (props) => {
       </div>
       <div className="skills-center">
         <Skills />
+      </div>
+      <div className="about-footer">
+        <Footer />
       </div>
     </div>
   );

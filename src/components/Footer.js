@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import "./Footer.css";
+// import "./Footer.css";
 
 class Footer extends Component {
   render() {
@@ -18,7 +18,7 @@ class Footer extends Component {
 
     return (
       <footer>
-        <nav className="footer">
+        <nav>
           <div>
             <a
               href="https://www.linkedin.com/in/jamesredden1/"
