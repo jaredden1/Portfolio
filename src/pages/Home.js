@@ -1,4 +1,5 @@
 import { Link } from "react-router-dom";
+import Footer from "../components/Footer";
 import "./Home.css";
 
 const Home = (props) => {
@@ -22,6 +23,9 @@ const Home = (props) => {
             </button>
           </Link>
         </div>
+      </div>
+      <div className="home-footer">
+        <Footer />
       </div>
     </div>
   );

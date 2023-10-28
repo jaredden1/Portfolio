@@ -5,7 +5,7 @@
 }
 
 .project-container {
-  padding-top: 10%;
+  padding-top: 10rem;
   font-size: 2rem;
   display: flex;
   flex-direction: column;
@@ -48,6 +48,24 @@ button {
 button:hover {
   background-color: #0d93ec;
   filter: brightness(1.2);
+  transform: scale(1.1);
+}
+
+.project-footer nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 15.4rem;
+}
+
+.project-footer div {
+  margin-left: 10px;
+}
+
+.project-footer a:hover svg {
+  transition: box-shadow 0.3s ease, transform 0.3s ease;
+  box-shadow: 0 0 10px 2px rgba(5, 153, 245, 0.7);
+  filter: brightness(1.3);
   transform: scale(1.1);
 }
 
