@@ -2,7 +2,7 @@ import { useEffect, useState } from "react";
 import Skills from "./Skills";
 import Footer from "../components/Footer";
 
-const headshot = "https://i.imgur.com/s9aqFid.png";
+const headshot = "https://i.imgur.com/s9aqFid.png"; // headshot image
 
 const About = (props) => {
   const [about, setAbout] = useState(null);
