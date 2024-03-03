@@ -1,15 +1,15 @@
 import { Route, Routes } from "react-router-dom";
 import React, { useState } from "react";
 // import Footer from "./components/Footer";
-import Header from "./components/Header";
-import Home from "./pages/Home";
-import Projects from "./pages/Projects";
-import About from "./pages/About";
-import Contact from "./components/Contact";
+import Header from "../../components/NavBar/Header";
+import Home from "../Home/Home";
+import Projects from "../Projects/Projects";
+import About from "../About/About";
+import Contact from "../../components/Contact/Contact";
 import "./App.css";
 
 function App() {
-  const [darkMode, setDarkMode] = useState(false);
+  const [darkMode] = useState(false);
 
   return (
     <div className={`App ${darkMode ? "dark" : ""}`}>

@@ -1,6 +1,6 @@
 import "./Header.css";
 import { Link } from "react-router-dom";
-import { DarkMode } from "./DarkMode";
+import { DarkMode } from "../Modes/DarkMode";
 
 const logo = ""; // add my logo here later.
 
