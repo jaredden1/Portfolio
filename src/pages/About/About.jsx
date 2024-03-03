@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
-import Skills from "./Skills";
-import Footer from "../components/Footer";
+import Skills from "../Skills/Skills";
+import Footer from "../../components/Footer/Footer";
 
 const headshot = "https://i.imgur.com/s9aqFid.png"; // headshot image
 

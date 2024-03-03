@@ -1,13 +1,13 @@
-import "./About.css";
-import html from "../assets/html.png";
-import css from "../assets/css.png";
-import js from "../assets/js.png";
-import react from "../assets/react.png";
-import node from "../assets/nodejs.png";
-import express from "../assets/express.png";
-import mongo from "../assets/mongo.png";
-import python from "../assets/python.png";
-import django from "../assets/django.png";
+import "../About/About.css";
+import html from "../../assets/html.png";
+import css from "../../assets/css.png";
+import js from "../../assets/js.png";
+import react from "../../assets/react.png";
+import node from "../../assets/nodejs.png";
+import express from "../../assets/express.png";
+import mongo from "../../assets/mongo.png";
+import python from "../../assets/python.png";
+import django from "../../assets/django.png";
 
 export default function Skills() {
   return (
