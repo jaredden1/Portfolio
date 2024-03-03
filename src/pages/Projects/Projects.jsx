@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react";
-import Footer from "../../components/Footer/Footer";
+// import Footer from "../../components/Footer/Footer";
 import "./Projects.css";
 
 const Projects = () => {
@@ -33,7 +33,7 @@ const Projects = () => {
           </div>
         ))}
         <div className="project-footer">
-          <Footer />
+          {/* <Footer /> */}
         </div>
       </div>
     );
