@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react";
-// import Footer from "../../components/Footer/Footer";
+import Footer from "../../components/Footer/Footer";
 import "./Projects.css";
 
 const Projects = () => {
@@ -21,20 +21,19 @@ const Projects = () => {
         {projects.map((project) => (
           <div className="project-container" key={project.id}>
             <h1 className="title">{project.name}</h1>
-            <img src={project.image} alt={project.name} />
+            <a href={project.live} target="_blank" rel="noopener noreferrer">
+              <img src={project.image} alt={project.name} />
+            </a>
             <div className="button-container">
               <a href={project.git}>
-                <button>Github</button>
-              </a>
-              <a href={project.live}>
-                <button>live site</button>
+                <button>View Github</button>
               </a>
             </div>
           </div>
         ))}
         <div className="project-footer">
-          {/* <Footer /> */}
-        </div>
+          <Footer />
+          </div>
       </div>
     );
   };
