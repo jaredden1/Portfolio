@@ -3,30 +3,35 @@
       "name": "Urban Forager",
       "live": "https://urban-forager.netlify.app/",
       "git": "https://github.com/jaredden1/The-Urban-Forager",
-      "image": "https://imgur.com/Tzrz32c.jpg"
+      "image": "https://imgur.com/Tzrz32c.jpg",
+      "text": "A re-imagined version of Chef's Kiss developed post-cohort; this full-stack MERN application elevates restaurant discovery, allowing users to search and save eateries effortlessly in any location. Developed with Express.js, React.js, MongoDB, JavaScript, and CSS, it features meticulous front and back-end detailing. The app integrates Mapbox and Yelp Fusion APIs for effective restaurant location mapping and data visualization. A caching mechanism optimizes performance and lowers API call frequency, improving user experience. It incorporates Auth0 by Okta for secure user authentication, enabling easy sign-up, login, and personalized features like saving favorites and adding comments. The application addresses user experience challenges with fallback images and intuitive error handling. It offers dual search functionality for targeted exploration by restaurant/cuisine type and location and includes automatic location detection for users in unfamiliar areas. Containerized with Docker for consistent development across systems, it also ensures mobile responsiveness for a seamless experience on various devices."
   },
   {
       "name": "Pantry Pal",
       "live": "https://thepantrypal.netlify.app",
       "git": "https://github.com/jaredden1/pantry-pal",
-      "image": "https://imgur.com/UKWXfiM.jpg"
+      "image": "https://imgur.com/UKWXfiM.jpg",
+      "text": "A full-stack MERN recipe finder app that allows users to search for recipes based on available ingredients and also allows users to save recipes. Leveraged Express.js, React.js, MongoDB, Javascript, and CSS to create a recipe finder app that implements a search functionality based on available ingredients using the Spoonacular API. Implemented a data association model in Mongoose to tie user profiles to their saved favorite recipes, enabling users to easily access and manage their curated recipe collection. Implemented user authentication using Auth0 by Okta, ensuring secure access and user privacy for the application."
   },
   {
       "name": "Chef's Kiss",
       "live": "https://thechefskiss.netlify.app/",
       "git": "https://github.com/jaredden1/chefs-kiss",
-      "image": "https://imgur.com/TlxBbhP.png"
+      "image": "https://imgur.com/TlxBbhP.png",
+      "text": "A full-stack MERN app for searching and saving restaurants in any area, allowing a user to add their personal impressions. Leveraged Express.js, React.js, MongoDB, Javascript, and CSS to create a full CRUD app that implements a location-based restaurant search functionality using Yelp Fusion API. Lead development for wireframes, ERD diagrams, backend infrastructure, third-party API integration, site architecture, site design, and site styling. Pair programmed with a fellow developer during a one-week sprint, using Trello, Canva, and LucidChart for planning and project management and team-style git management using GitHub. To see the revamped and refined version of this app please check out Urban Forager."
   },
   {
       "name": "Get Me Fit",
       "live": "https://get-fit-tracker-1b767e883070.herokuapp.com/",
       "git": "https://github.com/jaredden1/Get-Me-Fit-App",
-      "image": "https://imgur.com/BkaCnAo.png"
+      "image": "https://imgur.com/BkaCnAo.png",
+      "text": "A MEN stack (MongoDB, Express.js, Node.js) app designed for fitness enthusiasts to record, customize, and track their workouts. Implemented full CRUD operations using Express.js, Mongoose, and Node.js, enabling users to manage their workout data efficiently. Integrated OAuth authentication for secure user access, ensuring data privacy and security. Led a team of three less experienced developers, guiding and collaborating to successfully complete the project. Utilized MongoDB to store and manage workout data, providing users with a seamless experience. Developed a user-friendly interface for workout customization, making it easy for users to tailor their routines."
   },
   {
       "name": "Maze Escape",
       "live": "https://jaredden-maze-escape.netlify.app/",
       "git": "https://github.com/jaredden1/Maze-Escape-Project-One",
-      "image": "https://imgur.com/MfFNwWk.png"
+      "image": "https://imgur.com/MfFNwWk.png",
+      "text": "A browser-based game that allows users to navigate through a maze under timed constraints using arrow keys. Utilized Javascript, HTML, and CSS to create an interactive and responsive maze game, allowing players to use arrow keys to maneuver through the maze. Constructed the maze layout using nested arrays, effectively representing the network of paths and walls and enabling dynamic navigation for players within the game."
   }
 ]
