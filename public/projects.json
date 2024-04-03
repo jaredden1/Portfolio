@@ -4,7 +4,7 @@
       "live": "https://www.james-redden-portfolio.com/",
       "git": "https://github.com/jaredden1/James-Redden-Portfolio.com",
       "image": "https://imgur.com/Dmqz7ls.jpg",
-      "text": "My new portfolio leverages cutting-edge technologies for a robust web application. Front-end development utilizes React and Next.js for enhanced performance, with TypeScript ensuring code reliability. Styling is managed through SCSS and MUI, offering a sleek user interface. EmailJS integration enables direct email functionality. Deployment and maintenance efficiency are achieved with Docker for consistent environments, AWS Elastic Beanstalk for automated cloud deployment, and GitHub Actions for seamless CI/CD workflows, facilitating effortless updates and scalable infrastructure management."
+      "text": "My new portfolio leverages cutting-edge technologies for a robust web application. Front-end development utilizes React and Next.js for enhanced performance, with TypeScript ensuring code reliability. Styling is managed through SCSS and MUI, offering a sleek user interface. EmailJS integration enables direct email functionality. Deployment and maintenance efficiency are achieved with Docker for consistent environments, Heroku for automated deployment (was deployed on AWS Elastic Beanstalk but removed due to $$ monthly charges), and GitHub Actions for seamless CI/CD workflows, facilitating effortless updates and scalable infrastructure management."
   },
   {
       "name": "Urban Forager",
